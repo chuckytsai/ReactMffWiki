@@ -5,9 +5,10 @@ export function MffA(props) {
             textDecoration: "none",
             fontWeight: "1000",
             color: "white",
-            fontStyle: "unset",
-            fontSize: "22px",
-            margin: props.margin
+            fontFamily: "Microsoft JhengHei",
+            fontSize: "28px",
+            margin: props.margin,
+            boxShadow:"0 0 0 0.5 black"
         }}
         href={props.href} >
         {props.text}

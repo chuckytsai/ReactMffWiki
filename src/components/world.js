@@ -12,9 +12,9 @@ export function Nav() {
             zIndex: "80",
             lineHeight: "70px",
             paddingTop: "10px",
-            backgroundColor: "gray",
+            background: "linear-gradient(45deg, #a39abe,#0d2863,#a39abe, #0d2863, #a39abe)",
             top: "0",
-            borderBottom: "5px inset rgb(238, 226, 226, 0.5)"
+            borderBottom: "3px inset rgb(238, 226, 226, 0.5)"
         }}>
         <a href='/'>
             <img style={{
@@ -42,17 +42,17 @@ export function Flooter() {
         position: "fixed",
         height: "40px",
         width: "100%",
-        backgroundColor: "gray",
+        background: "linear-gradient(45deg, #a39abe,#0d2863,#a39abe, #0d2863, #a39abe)",
         zIndex: "80",
         bottom: "0",
-        fontSize: "22px",
-        lineHeight: "30px",
+        fontSize: "25px",
+        lineHeight: "33px",
         fontWeight: "800",
         color: "white",
         textAlign: "center",
-        borderTop: "5px inset rgb(238, 226, 226, 0.5)"
+        borderTop: "3px inset rgb(238, 226, 226, 0.5)"
     }}
     // =======文字內容===================
-    >網 石__版 權 所 有__{new Date().getFullYear()}
+    >Copyright ©{new Date().getFullYear()} Netmarble Games 
     </footer>
 }
